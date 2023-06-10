@@ -11,8 +11,25 @@
       crossorigin="anonymous"
     />
   </head>
-
+<style>
+  .py-5 .btn{
+    background-color: rgb(247, 223, 11);
+    border-top-left-radius:25px ;
+    border-top-right-radius:25px ;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+      }
+      .container .btn-1{
+        background-color: rgb(230, 192, 211);
+        border: none;
+        border-top-left-radius:25px ;
+    border-top-right-radius:25px ;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+      }
+</style>
   <body>
+  
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <img src="assets/img/logo.png" alt="" />
@@ -36,7 +53,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Beverages</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -46,7 +63,7 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                Chef
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -60,13 +77,11 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link">Stories</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
+          <button class="btn-1">My Kitchen</button>
           </form>
         </div>
       </div>
@@ -83,7 +98,7 @@
               When you eat something that cooked by yourself, the happiness is
               priceless.
             </p>
-            <button>Decide a Menu</button>
+            <button class="btn">Decide a Menu</button>
           </div>
           <div class="col-12 col-md-6 d-flex justify-content-center">
             <img
